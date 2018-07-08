@@ -1,4 +1,4 @@
-# CentOS 7集成开发环境
+# CentOS 7 with Golang 1.10.3
 
 FROM centos:7
 
