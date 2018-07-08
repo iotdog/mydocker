@@ -2,7 +2,7 @@
 
 FROM centos:7
 
-RUN yum install wget -y && cd /root && wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+RUN yum install wget git -y && cd /root && wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
 
 # install go
 RUN cd /root &&  mkdir gopath && tar -xzf go1.10.3.linux-amd64.tar.gz && mv go goroot
